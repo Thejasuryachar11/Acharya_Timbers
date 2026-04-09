@@ -85,7 +85,7 @@ export default function Contact() {
           {/* RIGHT SIDE MAP */}
           <div className="w-full h-[350px] rounded-xl overflow-hidden shadow-lg border">
             <iframe
-              src="https://www.google.com/maps?q=13.29690274734809,76.25694052848166&z=15&output=embed"
+              src="https://maps.app.goo.gl/n59qSV2C6g9o9p2Z6"
               width="100%"
               height="100%"
               loading="lazy"
