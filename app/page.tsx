@@ -166,25 +166,51 @@ export default function Home() {
 </section>
 
       {/* CTA Section */}
-      <section id="contact" className="w-full py-20 px-4 bg-gradient-to-r from-primary/10 to-accent/10">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-primary mb-6">
-            Ready to Transform Your Wood-Craft Operations?
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8">
-            Contact our team today to learn how our advanced machinery can increase your production
-            capacity and product quality.
-          </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity">
-              Request Demo
-            </button>
-            <button className="px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors">
-              Contact Sales
-            </button>
-          </div>
-        </div>
-      </section>
+<section className="w-full py-20 px-4 bg-gradient-to-r from-primary/10 to-accent/10">
+  <div className="max-w-4xl mx-auto text-center">
+
+    <h2 className="text-4xl font-bold text-primary mb-6">
+      Need Timber or Custom Furniture?
+    </h2>
+
+    <p className="text-lg text-muted-foreground mb-8">
+      Get high-quality timber, furniture, and cutting services from Acharya Timbers & Furnitures.
+      Contact us directly for quick service and best pricing.
+    </p>
+
+    {/* Buttons */}
+    <div className="flex flex-col md:flex-row gap-4 justify-center">
+
+      {/* Call */}
+      <a
+        href="tel:+919980747630"
+        className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition shadow-md"
+      >
+        📞 Call Now
+      </a>
+
+      {/* WhatsApp */}
+      <a
+        href="https://wa.me/919980747630"
+        target="_blank"
+        className="px-8 py-4 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition shadow-md"
+      >
+        💬 WhatsApp Chat
+      </a>
+
+      {/* Map */}
+      <a
+        href="https://www.google.com/maps?q=13.29690274734809,76.25694052848166"
+        target="_blank"
+        className="px-8 py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition shadow-md"
+      >
+        📍 View Location
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="w-full py-12 px-4 bg-primary/5 border-t border-border">
