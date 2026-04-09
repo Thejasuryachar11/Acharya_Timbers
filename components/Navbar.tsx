@@ -34,13 +34,42 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white px-6 pb-4 space-y-4 shadow-lg">
-          <a href="#products" onClick={() => setOpen(false)}>Products</a>
-          <a href="#machines" onClick={() => setOpen(false)}>Machines</a>
-          <a href="#gallery" onClick={() => setOpen(false)}>Gallery</a>
-          <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
-        </div>
-      )}
+  <div className="md:hidden bg-white px-6 pb-6 pt-2 space-y-4 shadow-lg border-t">
+
+    <a 
+      href="#products" 
+      onClick={() => setOpen(false)} 
+      className="block text-lg font-medium py-2 border-b"
+    >
+      Products
+    </a>
+
+    <a 
+      href="#machines" 
+      onClick={() => setOpen(false)} 
+      className="block text-lg font-medium py-2 border-b"
+    >
+      Machines
+    </a>
+
+    <a 
+      href="#gallery" 
+      onClick={() => setOpen(false)} 
+      className="block text-lg font-medium py-2 border-b"
+    >
+      Gallery
+    </a>
+
+    <a 
+      href="#contact" 
+      onClick={() => setOpen(false)} 
+      className="block text-lg font-medium py-2"
+    >
+      Contact
+    </a>
+
+  </div>
+)}
     </header>
   );
 }
