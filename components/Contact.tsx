@@ -4,7 +4,7 @@ export default function Contact() {
   const phone = "9980747630";
   const whatsappLink = `https://wa.me/91${phone}`;
   const callLink = `tel:+91${phone}`;
-  const mapLink = `https://www.google.com/maps?q=13.29690274734809,76.25694052848166`;
+  const mapLink = `https://maps.app.goo.gl/n59qSV2C6g9o9p2Z6`;
 
   return (
     <section id="contact" className="py-20 bg-muted/40">
@@ -85,7 +85,7 @@ export default function Contact() {
           {/* RIGHT SIDE MAP */}
           <div className="w-full h-[350px] rounded-xl overflow-hidden shadow-lg border">
             <iframe
-              src="https://maps.app.goo.gl/n59qSV2C6g9o9p2Z6"
+              src="https://www.google.com/maps?q=13.29690274734809,76.25694052848166&z=15&output=embed"
               width="100%"
               height="100%"
               loading="lazy"
